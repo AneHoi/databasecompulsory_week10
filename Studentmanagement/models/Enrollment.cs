@@ -5,7 +5,7 @@ public class Enrollment
     public int id { get; set; }
     public Guid StudentId { get; set; }
     public int CourseId { get; set; }
-    public Grade Grade { get; set; }
+    public Grade FinalGrade { get; set; }
 }
 
 public enum Grade

@@ -8,5 +8,6 @@ public class Student
     public string Middlename { get; set; }
     public string Lastname { get; set; }
     public string Email { get; set; }
+    public DateOnly DateOfBirth { get; set; }
     public DateOnly EnrollmentDate { get; set; }
 }
